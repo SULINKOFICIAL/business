@@ -1,8 +1,10 @@
 <div class="sidebar dark [&amp;.dark]:bg-coal-600 bg-light border-r border-r-gray-200 dark:border-r-coal-100 fixed top-0 bottom-0 z-20 hidden lg:flex flex-col items-stretch shrink-0" data-drawer="true" data-drawer-class="drawer drawer-start top-0 bottom-0" data-drawer-enable="true|lg:false" id="sidebar">
     <div class="sidebar-header hidden lg:flex items-center relative justify-between px-3 lg:px-6 shrink-0" id="sidebar_header">
         <a href="html/demo1/index.html">
-        <img class="default-logo h-[23px] w-100" src="{{ asset('assets/temp_files/logo_03.png') }}"/>
-        <img class="small-logo h-[22px] w-100" src="{{ asset('assets/temp_files/logo_03.png') }}"/>
+        <h1 class="text-xl font-semibold leading-none text-gray-900">
+            Sulink Business
+        </h1>
+        <span class="text-gray-600">Oficina Criminal</span>
         </a>
         <div data-toggle="body" data-toggle-class="sidebar-collapse" id="sidebar_toggle">
             <div class="hidden [html.dark_&amp;]:block">

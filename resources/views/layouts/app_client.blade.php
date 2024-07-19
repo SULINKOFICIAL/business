@@ -10,11 +10,8 @@
             <div class="wrapper flex grow flex-col">
                 @include('includes.header')
                 <main class="grow content pt-5" id="content" role="content">
-                    <!-- begin: container -->
                     <div class="container-fixed" id="content_container">
                     </div>
-                    <!-- end: container -->
-                    <!-- begin: container -->
                     <div class="container-fixed">
                         <div class="flex flex-wrap items-center lg:items-end justify-between gap-5 pb-7.5">
                             <div class="flex flex-col justify-center gap-2">
@@ -32,14 +29,11 @@
                             </div>
                         </div>
                     </div>
-                    <!-- end: container -->
-                    <!-- begin: container -->
                     <div class="container-fixed">
                         <div class="grid gap-5 lg:gap-7.5">
                             @yield('content')
                         </div>
                     </div>
-                    <!-- end: container -->
                 </main>
                 @include('includes.footer')
             </div>
